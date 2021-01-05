@@ -1,5 +1,5 @@
 body {
-  background: rgb(173, 206, 204);
+  background-color: rgb(173, 206, 204);
 }
 
 a {
@@ -14,7 +14,7 @@ p {
 .container {
   transition: width 200ms;
   transition: height 200ms;
-  
+
   display: flex;
   flex-direction: column;
 }
