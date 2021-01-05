@@ -1,0 +1,20 @@
+body {
+  background: rgb(173, 206, 204);
+}
+
+a {
+  text-decoration: none;
+  color: rgba(67, 135, 150, 0.8);
+}
+
+p {
+  color: rgb(120, 157, 156);
+}
+
+.container {
+  transition: width 200ms;
+  transition: height 200ms;
+  
+  display: flex;
+  flex-direction: column;
+}
