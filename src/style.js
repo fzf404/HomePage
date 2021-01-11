@@ -6,7 +6,7 @@ showMe = () => {
     if (ctop < 1) {
         ctop = 0;
     }
-    box1.style.margin = `${80 - ctop}px auto 30px`;
+    box1.style.margin = `${70 - ctop}px auto 30px`;
 }
 
 let slowMe = setInterval(showMe, 10);
