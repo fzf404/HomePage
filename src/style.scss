@@ -1,41 +1,28 @@
-.me,
-.friend {
-  width: 600px;
-  background-color: rgba(250, 245, 214, 0.6);
-  border-radius: 15px;
-  /* x偏移量 | y偏移量 | 阴影模糊半径 | 阴影扩散半径 | 阴影颜色 */
-  box-shadow: 3px 3px 7px 5px rgba(1, 46, 86, 0.1);
-
-  display: flex;
-}
-
 .me {
-  margin: 70px auto 30px; // JS Set
-  height: 360px;
-  flex-direction: column;
-  justify-content:center;
-  align-items:center;
+  margin         : 70px auto 30px; // JS Set
+  height         : 360px;
+  flex-direction : column;
+  justify-content: center;
+  align-items    : center;
 
   /* 头像区 */
   .avatar {
     margin-top: 25px;
 
-    img {
-      width: 100px;
+    a img {
+      width : 100px;
       height: 100px;
-      border-radius: 80px;
-      border: 6px solid rgba(129, 172, 171, 0.8);
     }
   }
 
   /* Header区 */
   .title {
     h1 {
-      margin-top: 10px;
-      font-size: 2.2em;
+      margin-top : 10px;
+      font-size  : 2.2em;
       /* offset-x | offset-y | blur-radius | color */
       text-shadow: 1px 1px 2px rgba(2, 80, 81, 0.4);
-      color: #60918e;
+      color      : #699;
     }
   }
 
@@ -46,11 +33,11 @@
       margin: auto 20px;
 
       img {
-        width: 80px;
+        width : 80px;
         height: 80px;
 
         &:hover {
-          width: 75px;
+          width : 75px;
           height: 75px;
           margin: auto 3px;
         }
@@ -64,20 +51,18 @@
   height: 120px;
   margin: 0 auto;
 
-  display: inline-flex;
-  flex-direction: row;
+  display        : inline-flex;
+  flex-direction : row;
   justify-content: space-around;
-  align-items: center;
+  align-items    : center;
 
-  .item {
+  .avatar {
     a img {
-      width: 80px;
+      width : 80px;
       height: 80px;
-      border-radius: 80px;
-      border: 6px solid rgba(129, 172, 171, 0.8);
 
       &:hover {
-        width: 75px;
+        width : 75px;
         height: 75px;
         margin: auto 3px;
       }
@@ -86,8 +71,8 @@
 }
 
 .footer {
-  display: flex;
+  display        : flex;
   justify-content: center;
-  align-items: flex-end;
-  margin-top: 60px;
+  align-items    : flex-end;
+  margin-top     : 60px;
 }

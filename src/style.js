@@ -1,7 +1,7 @@
 let box1 = document.getElementById('me');
 let ctop = 300;
 
-showMe = () => {
+let showMe = () => {
     ctop /= 1.03;
     if (ctop < 1) {
         ctop = 0;
@@ -12,4 +12,3 @@ showMe = () => {
 let slowMe = setInterval(showMe, 10);
 
 setTimeout("clearInterval(slowMe)", 2000)
-setTimeout("clearInterval(slowFri)", 2000)

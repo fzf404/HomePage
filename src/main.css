@@ -1,14 +1,15 @@
+@charset "UTF-8";
 body {
-  background-color: #adcecc;
+  background-color: #acc;
 }
 
 a {
   text-decoration: none;
-  color: rgba(67, 135, 150, 0.8);
+  color: #59a;
 }
 
 p {
-  color: #789d9c;
+  color: #8aa;
 }
 
 .container {
@@ -16,6 +17,21 @@ p {
   transition: height 200ms;
   display: flex;
   flex-direction: column;
+}
+
+.me,
+.friend {
+  width: 600px;
+  background-color: #ffd8;
+  border-radius: 15px;
+  /* x偏移量 | y偏移量 | 阴影模糊半径 | 阴影扩散半径 | 阴影颜色 */
+  box-shadow: 3px 3px 7px 5px #0372;
+  display: flex;
+}
+
+.avatar a img {
+  border-radius: 80px;
+  border: 6px solid #9bbc;
 }
 
 /*# sourceMappingURL=main.css.map */
